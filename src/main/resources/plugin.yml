@@ -1,0 +1,9 @@
+name: EvoCore
+version: '${project.version}'
+main: fr.av3nirr.Main
+api-version: 1.18
+commands:
+  say:
+    permission: evolium.say.use
+    permission-message: "§cVous ne pouvez pas faire ça !"
+    description: "Annonce dans le Chat"
